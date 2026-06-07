@@ -1,0 +1,58 @@
+aid: dados-cm-lisboa-pt
+name: Lisbon Open Data
+description: >-
+  Lisbon Open Data is a municipal government open-data portal for Portugal running CKAN.
+  It exposes the CKAN catalog API over approximately 404 datasets.
+kind: government
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/dados-cm-lisboa-pt/refs/heads/main/apis.yml
+tags:
+  - Open Data
+  - CKAN
+  - Data Catalog
+  - DCAT
+  - Government Data
+  - Municipal Government
+  - Portugal
+created: '2026-06-07'
+modified: '2026-06-07'
+specificationVersion: '0.19'
+apis:
+  - aid: dados-cm-lisboa-pt:catalog
+    name: Lisbon Open Data CKAN Action API
+    description: >-
+      CKAN Action API for Lisbon Open Data, ~404 datasets.
+    humanURL: https://dados.cm-lisboa.pt
+    baseURL: https://dados.cm-lisboa.pt/api/3/action
+    tags:
+      - CKAN
+      - Action API
+      - Open Data
+      - Catalog
+      - REST
+      - JSON
+    properties:
+      - type: Documentation
+        url: https://docs.ckan.org/en/latest/api/
+      - type: Website
+        url: https://dados.cm-lisboa.pt
+      - type: x-api-endpoint
+        url: https://dados.cm-lisboa.pt/api/3/action/status_show
+      - type: x-ckan-version
+        value: '2.5.1'
+common:
+  - type: Website
+    url: https://dados.cm-lisboa.pt
+  - type: Documentation
+    url: https://docs.ckan.org/en/latest/api/
+  - type: Plans
+    url: plans/dados-cm-lisboa-pt-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/dados-cm-lisboa-pt-rate-limits.yml
+  - type: FinOps
+    url: finops/dados-cm-lisboa-pt-finops.yml
+  - type: Review
+    url: review.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

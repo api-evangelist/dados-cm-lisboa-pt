@@ -1,0 +1,11 @@
+name: Lisbon Open Data
+url: https://raw.githubusercontent.com/api-evangelist/dados-cm-lisboa-pt/refs/heads/main/review.yml
+created: '2026-06-07'
+modified: '2026-06-07'
+reviews:
+  - date: '2026-06-07'
+    rating: 4
+    summary: Live CKAN API verified (v2.5.1), ~404 datasets.
+    endpoints:
+      - url: https://dados.cm-lisboa.pt/api/3/action/status_show
+        status: 200
