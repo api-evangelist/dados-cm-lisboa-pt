@@ -41,6 +41,8 @@ apis:
       - type: x-ckan-version
         value: '2.5.1'
 common:
+  - type: DomainSecurity
+    url: security/dados-cm-lisboa-pt-domain-security.yml
   - type: Website
     url: https://dados.cm-lisboa.pt
   - type: Documentation
